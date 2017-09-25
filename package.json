@@ -1,0 +1,18 @@
+{
+  "name": "reglworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "regl": "^1.3.0"
+  },
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify ./src/index.js -o ./dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
